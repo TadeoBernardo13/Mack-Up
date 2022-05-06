@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style-alumno-inicio.css">
+    <title>Alumno</title>
+</head>
+<body>
+    <!-- nav bar top -->
+    <nav class="navbar navbar-light bg-primary nav-bar-login">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="/assets/placeholder.jpg" alt="" width="30" height="24">
+            </a>
+            <div class="d-flex">
+                <button type="button" class="btn btn-outline-primary" style="color: white;">Inicio</button>
+                <button type="button" class="btn btn-outline-primary" style="color: white;">Subir</button>
+                <a href="" class="btn btn-outline-primary"><i class="fa fa-user-circle" aria-hidden="true" style="color: white;"></i></a>
+                <a href="" class="btn btn-outline-primary"><i class="fa fa-arrow-right-from-bracket" aria-hidden="true" style="color: white;"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar top end -->
+
+    <!-- nav bar estudiante start -->
+    <nav class="navbar navbar-light nav-bar-estudiante">
+        <div class="container-fluid">
+            <div class="nav-brand">
+                <span class="text-muted fw-bold fs-4">Estudiante</span>
+                <img class="rounded-circle" src="/assets/placeholder.jpg" alt="" width="40" height="40">
+                <span class="fw-bold fs-4">Alumno </span> <span class="text-muted fs-6">Nombre Alumno</span>
+            </div>
+            <div class="d-flex fw-bold">
+                <a href="#" class="text-decoration-none text-muted"><i class="fas fa-angle-right text-muted" aria-hidden="true"></i> Ejercicios</a>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar estudiante end -->
+
+    <!-- start panel estudiante -->
+    <section class="box">
+        <div class="row mx-auto row-container">
+
+            <!-- start panel de actividades -->
+            <div class="col col-10 panel-izquierdo">
+
+                <!-- start group btns -->
+                <div class="row-md row-btns">
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary fw-bold" for="btnradio1">Modulos</label>
+                      
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-primary fw-bold" for="btnradio2">Tareas</label>
+                      
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <label class="btn btn-outline-primary fw-bold" for="btnradio3">Examenes</label>
+                    </div>
+                </div>
+                <!-- end group btns -->
+
+                <div class="container panel-modulos">
+
+                    <!-- start panel modulos -->
+                    <div class="row tab-box">
+                        
+                        <!-- start tabs -->
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item rounded">
+                                <button class="nav-link active fw-bold" id="modulo-tab-1" data-bs-toggle="tab" data-bs-target="#nav-modulo-1" type="button" role="tab" aria-controls="nav-modulo-1" aria-selected="true">
+                                    Módulo 1
+                                </button>
+                            </li>
+                            <li class="nav-item rounded">
+                                <button class="nav-link fw-bold" id="modulo-tab-2" data-bs-toggle="tab" data-bs-target="#nav-modulo-2" type="button" role="tab" aria-controls="nav-modulo-2" aria-selected="false">
+                                    Módulo 2
+                                </button>
+                            </li>
+                            <li class="nav-item rounded">
+                                <button class="nav-link fw-bold" id="modulo-tab-3" data-bs-toggle="tab" data-bs-target="#nav-modulo-3" type="button" role="tab" aria-controls="nav-modulo-3" aria-selected="false">
+                                    Módulo 3
+                                </button>
+                            </li>
+                        </ul>
+                        <!-- start tabs -->
+
+                        <!-- start tabs content -->
+                        <div class="tab-content rounded" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="nav-modulo-1" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row justify-content-center align-items-center row-modulo-content">
+                                    <div class="card border-0" style="width:18rem;">
+                                        <img src="/assets/placeholder.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <figure class="text-center">
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <a href="#" class="stretched-link"></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0" style="width:18rem;">
+                                        <img src="/assets/placeholder.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <figure class="text-center">
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <a href="#" class="stretched-link"></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0" style="width:18rem;">
+                                        <img src="/assets/placeholder.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <figure class="text-center">
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <a href="#" class="stretched-link"></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- start btn inciar modulo -->
+                                <div class="row mx-auto btn-inicar-modulo">
+                                    <button type="button" class="btn btn-primary fw-bold">Iniciar módulo</button>
+                                </div>
+                                <!-- end btn inciar modulo -->
+
+                            </div>
+                            <div class="tab-pane fade" id="nav-modulo-2" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="row justify-content-center align-items-center row-modulo-content">
+                                    <div class="card border-0" style="width:18rem;">
+                                        <img src="/assets/placeholder.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <figure class="text-center">
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <a href="#" class="stretched-link"></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0" style="width:18rem;">
+                                        <img src="/assets/placeholder.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <figure class="text-center">
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <a href="#" class="stretched-link"></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0" style="width:18rem;">
+                                        <img src="/assets/placeholder.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <figure class="text-center">
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <a href="#" class="stretched-link"></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- start btn inciar modulo -->
+                                <div class="row mx-auto btn-inicar-modulo">
+                                    <button type="button" class="btn btn-primary fw-bold">Iniciar módulo</button>
+                                </div>
+                                <!-- end btn inciar modulo -->
+
+                            </div>
+                            <div class="tab-pane fade" id="nav-modulo-3" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="row justify-content-center align-items-center row-modulo-content">
+                                    <div class="card border-0" style="width:18rem;">
+                                      <img src="/assets/placeholder.jpg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <figure class="text-center">
+                                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                            <a href="#" class="stretched-link"></a>
+                                        </figure>
+                                      </div>
+                                    </div>
+                                    <div class="card border-0" style="width:18rem;">
+                                        <img src="/assets/placeholder.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <figure class="text-center">
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <a href="#" class="stretched-link"></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0" style="width:18rem;">
+                                        <img src="/assets/placeholder.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <figure class="text-center">
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <a href="#" class="stretched-link"></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- start btn inciar modulo -->
+                                <div class="row mx-auto btn-inicar-modulo">
+                                    <button type="button" class="btn btn-primary fw-bold">Iniciar módulo</button>
+                                </div>
+                                <!-- end btn inciar modulo -->
+
+                            </div>
+                            <!-- end tab modulos -->
+
+                        </div>
+                        <!-- end tabs content -->
+
+                    </div>
+                    <!-- end panel modulos -->
+
+                </div>
+            </div>
+            <!-- end panel de actividades -->
+
+            <!-- start panel info estudiante -->
+            <div class="col col-2 panel-derecho">
+                <div class="row">
+                    <div class="col col-1">
+                        <a href="#"><i class="fas fa-circle-right fs-3" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <h4 class="text-muted">Alumno</h4>
+                        <div class="text-center container-photo">
+                            <img class="img-thumbnail rounded-circle profile-photo" src="/assets/placeholder.jpg">
+                        </div>
+
+                        <div class="data-alumno">
+                            <span><h4>Nombre</h4></span>
+                            <div class="text-muted">
+                                <p class="fs-6">NOMBRE</p>
+                                <p class="fs-6">ESCUELA</p>
+                                <p class="fs-6">GRADO</p>
+                                <p class="fs-6">EDAD</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="btn-group-vertical">
+                            <a href="#" class="text-decoration-none text-start border-0"><img src="/assets/diploma_ico.png" alt="Bootstrap" width="30" height="30" style="color: rgb(13, 110, 253);"><span class="text-muted fw-bold fs-5">Mis diplomas</span></a>
+                            <a href="#" class="text-decoration-none text-start border-0"><i class="bi bi-person-lines-fill fs-4"></i><span class="text-muted fw-bold fs-5"> Mi plan de estudios</span></a>
+                            <a href="#" class="text-decoration-none text-start border-0"><i class="bi bi-file-earmark-text fs-4"></i><span class="text-muted fw-bold fs-5"> Mis apuntes</span></a>
+                            <a href="#" class="text-decoration-none text-start border-0"><i class="fa fa-gear fs-4" aria-hidden="true"></i><span class="text-muted fw-bold fs-5"> Configuración</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end panel info estudiante -->
+
+        </div>
+    </section>
+    <!-- end panel estudiante -->
+
+</body>
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,94 @@
+body { background: hsl(0, 0%, 88%); }
+.bootstrap { float: left; max-height: 125px; }
+
+.nav-bar-estudiante{
+    background:hsl(0, 0%, 100%);
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+.box .row-container .panel-izquierdo{
+    width: 75%;
+}
+
+.box .row-container .panel-izquierdo .panel-modulos{
+    margin-top: 3%;
+    width: 90%;
+}
+
+.box .row-container .panel-izquierdo .panel-modulos .tab-content{
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+.box .row-container .panel-izquierdo .panel-modulos .nav-item, .tab-content{
+    background:hsl(0, 0%, 100%);
+}
+
+.box .row-container .panel-izquierdo .row-btns .btn-group{
+    margin-top: 1%;
+    width: 40%;
+    color: black;
+    background:hsl(0, 0%, 100%);
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+.box .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .row-modulo-content{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.box .row-container .panel-izquierdo .panel-modulos .tab-content .row .card{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.box .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .btn-inicar-modulo{
+    width: 15%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+.box .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .modulo-title{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.box .row-container .panel-derecho{
+    width: 20%;
+}
+
+.box .row-container .panel-derecho .row{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.box .row-container .panel-derecho .container-photo{
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.box .row-container .panel-derecho .data-alumno p{
+    margin-bottom: 1px;
+}
+
+.box .row-container .panel-derecho .btn-group-vertical{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.box .row-container .panel-derecho .tab-box .tab-content{
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+.box .row-container .panel-derecho .tab-box{
+    margin-top: 11%;
+}
+
+.box .row-container .panel-derecho .tab-box .tab-content .btn-inicar-modulo{
+    width: 40%;
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+.box .row-container .panel-derecho .tab-box .tab-content .tab-pane{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
