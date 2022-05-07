@@ -52,11 +52,11 @@
         <div class="row mx-auto row-container">
 
             <!-- start panel de actividades -->
-            <div class="col col-10 panel-izquierdo">
+            <div class="col panel-izquierdo">
 
                 <!-- start group btns -->
-                <div class="row-md row-btns">
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <div class="row-md d-flex align-items-center position-relative bd-highlight mb-3 row-btns">
+                    <div class="me-auto bd-highlight btn-group" role="group" aria-label="Basic radio toggle button group">
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
                         <label class="btn btn-outline-primary fw-bold" for="btnradio1">Modulos</label>
                       
@@ -66,13 +66,18 @@
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
                         <label class="btn btn-outline-primary fw-bold" for="btnradio3">Examenes</label>
                     </div>
+                    <div>
+                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                 </div>
                 <!-- end group btns -->
 
                 <div class="container panel-modulos">
 
                     <!-- start panel modulos -->
-                    <div class="row tab-box">
+                    <div class="row tab-box-">
                         
                         <!-- start tabs -->
                         <ul class="nav nav-tabs">
@@ -224,7 +229,43 @@
             <!-- end panel de actividades -->
 
             <!-- start panel info estudiante -->
-            <div class="col col-2 panel-derecho">
+            <div class="offcanvas offcanvas-end panel-derecho" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 id="offcanvasRightLabel" class="text-muted">ALUMNO</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="text-center container-photo">
+                                <img class="img-thumbnail rounded-circle profile-photo" src="/assets/placeholder.jpg">
+                            </div>
+    
+                            <div class="data-alumno">
+                                <span><h4>Nombre</h4></span>
+                                <div class="text-muted">
+                                    <p class="fs-6">NOMBRE</p>
+                                    <p class="fs-6">ESCUELA</p>
+                                    <p class="fs-6">GRADO</p>
+                                    <p class="fs-6">EDAD</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="row">
+                            <div class="btn-group-vertical">
+                                <a href="#" class="text-decoration-none text-start border-0"><img src="/assets/diploma_ico.png" alt="Bootstrap" width="30" height="30" style="color: rgb(13, 110, 253);"><span class="text-muted fw-bold fs-5">Mis diplomas</span></a>
+                                <a href="#" class="text-decoration-none text-start border-0"><i class="bi bi-person-lines-fill fs-4"></i><span class="text-muted fw-bold fs-5"> Mi plan de estudios</span></a>
+                                <a href="#" class="text-decoration-none text-start border-0"><i class="bi bi-file-earmark-text fs-4"></i><span class="text-muted fw-bold fs-5"> Mis apuntes</span></a>
+                                <a href="#" class="text-decoration-none text-start border-0"><i class="fa fa-gear fs-4" aria-hidden="true"></i><span class="text-muted fw-bold fs-5"> Configuración</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end panel info estudiante -->
+
+            <!-- <div class="col col-2 panel-derecho">
                 <div class="row">
                     <div class="col col-1">
                         <a href="#"><i class="fas fa-circle-right fs-3" aria-hidden="true"></i></a>
@@ -257,7 +298,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- end panel info estudiante -->
 
         </div>

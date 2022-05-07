@@ -1,41 +1,51 @@
 body { background: hsl(0, 0%, 88%); }
 .bootstrap { float: left; max-height: 125px; }
 
+/* Nav bar docente */
 .nav-bar-docente{
     background:hsl(0, 0%, 100%);
     box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
 }
 
+/* posicionamiento del contenido, todos los paneles */
 .box-proyectos .row-proyectos{
     margin-top: 1%;
 }
 
+/* Contenedor de los paneles p-Activos y p-Terminados */
 .box-proyectos .row-proyectos .panel-proyectos{
     width: 60%;
 }
 
-.box-proyectos .row-proyectos .panel-proyectos .row-container-proyectos .tab-box-p-activos .tab-content{
-    background:hsl(0, 0%, 100%);
-    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
-}
+/* Proyectos Activos */
+    /* Estilo del panel p-Activos  */
+    .box-proyectos .row-proyectos .panel-proyectos .row-container-proyectos .tab-box-p-activos .tab-content{
+        background:hsl(0, 0%, 100%);
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
 
-.box-proyectos .row-proyectos .panel-proyectos .tab-box-p-activos .tab-content .tab-pane .p-activos-content{
-    margin-top: 2%;
-}
+    /* Posicionamiento del panel p-Activos */
+    .box-proyectos .row-proyectos .panel-proyectos .tab-box-p-activos .tab-content .tab-pane .p-activos-content{
+        margin-top: 2%;
+    }
 
-.box-proyectos .row-proyectos .panel-proyectos .row-container-proyectos .tab-box-p-terminados{
-    margin-top: 3%;
-}
+/* Proyectos Terminados */
+    /* Posicionamiento del panel p-Terminados */
+    .box-proyectos .row-proyectos .panel-proyectos .row-container-proyectos .tab-box-p-terminados{
+        margin-top: 3%;
+    }
 
-.box-proyectos .row-proyectos .panel-proyectos .row-container-proyectos .tab-box-p-terminados .tab-content{
-    background:hsl(0, 0%, 100%);
-    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
-}
+    .box-proyectos .row-proyectos .panel-proyectos .tab-box-p-terminados .tab-content .tab-pane .p-terminados-content{
+        margin-top: 2%;
+    }
 
-.box-proyectos .row-proyectos .panel-proyectos .tab-box-p-terminados .tab-content .tab-pane .p-terminados-content{
-    margin-top: 2%;
-}
+    /* Estilo del panel p-Terminados  */
+    .box-proyectos .row-proyectos .panel-proyectos .row-container-proyectos .tab-box-p-terminados .tab-content{
+        background:hsl(0, 0%, 100%);
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
 
+/* Panel derecho realizar modulo */
 .box-proyectos .panel-realizar-modulo{
     width: 20%;
 }

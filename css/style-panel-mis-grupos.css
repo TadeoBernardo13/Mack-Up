@@ -1,20 +1,24 @@
 body { background: hsl(0, 0%, 88%); }
 .bootstrap { float: left; max-height: 125px; }
 
+/* Nav bar docente */
 .nav-bar-docente{
     background:hsl(0, 0%, 100%);
     box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
 }
 
+/* Grupo de botones */
 .row-btns{
     margin-top: 1%;
 }
 
+/* Estilo de grupo de botones */
 .row-btns .btn-group{
     background:hsl(0, 0%, 100%);
     box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
 }
 
+/* Estlilo y posicionamiento de la tabla */
 .container .table-container{
     margin-top: 8%;
     background:hsl(0, 0%, 100%);
@@ -24,4 +28,8 @@ body { background: hsl(0, 0%, 88%); }
 .container .table-container .table-titles{
     color: white;
     background:hsla(215, 98%, 52%);
+}
+
+.container .table-container .table-content button{
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
 }

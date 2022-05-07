@@ -1,110 +1,113 @@
 body { background: hsl(0, 0%, 88%); }
 .bootstrap { float: left; max-height: 125px; }
 
+/* Nav bar docente */
 .nav-bar-docente{
     background:hsl(0, 0%, 100%);
     box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
 }
 
-.box-crear-modulo .row-container .panel-izquierdo{
-    width: 75%;
-}
-
-.box-crear-modulo .row-container .panel-izquierdo .panel-modulos{
-    margin-top: 3%;
-    width: 90%;
-}
-
-.box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content{
-    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
-}
-
+/* Color de fondo de todos los paneles */
 .box-crear-modulo .row-container .panel-izquierdo .panel-modulos .nav-item, .tab-content{
     background:hsl(0, 0%, 100%);
 }
 
-.box-crear-modulo .row-container .panel-izquierdo .row-btns .btn-group{
-    margin-top: 1%;
-    width: 40%;
-    color: black;
-    background:hsl(0, 0%, 100%);
-    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
-}
+/* panel izquierdo, contenido crear modulo */
+    .box-crear-modulo .row-container .panel-izquierdo{
+        width: 75%;
+    }
 
-.box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .row-modulo-content{
-    margin-top: 8%;
-    margin-bottom: 8%;
-}
+    .box-crear-modulo .row-container .panel-izquierdo .panel-modulos{
+        margin-top: 3%;
+        width: 90%;
+    }
 
-.box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content .row .card{
-    margin-left: 4%;
-    margin-right: 4%;
-}
+    .box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content{
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
 
-.box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .btn-crear-modulo{
-    width: 15%;
-    margin-bottom: 5%;
-    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
-}
+    .box-crear-modulo .row-container .panel-izquierdo .row-btns .btn-group{
+        margin-top: 1%;
+        width: 40%;
+        color: black;
+        background:hsl(0, 0%, 100%);
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
 
-.box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .modulo-title{
-    margin-left: 2%;
-    margin-top: 2%;
-}
+    .box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .row-modulo-content{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
 
-.box-crear-modulo .row-container .panel-derecho{
-    width: 20%;
-}
+    .box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content .row .card{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 
-.box-crear-modulo .row-container .panel-derecho .row{
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
+    .box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .btn-crear-modulo{
+        width: 15%;
+        margin-bottom: 5%;
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
 
-.box-crear-modulo .row-container .panel-derecho .container-photo{
-    margin-top: 5%;
-    margin-bottom: 15%;
-}
+    .box-crear-modulo .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .modulo-title{
+        margin-left: 2%;
+        margin-top: 2%;
+    }
 
-.box-crear-modulo .row-container .panel-derecho .data-alumno p{
-    margin-bottom: 1px;
-}
+/* Panel derecho enviar modulo */
+    /* Dimesion y estilo del panel enviar modulo */
+    .box-crear-modulo .row-container .panel-derecho{
+        width: 20%;
+    }
 
-.box-crear-modulo .row-container .panel-derecho .btn-group-vertical{
-    margin-top: 15%;
-    margin-bottom: 10%;
-}
+    .box-crear-modulo .row-container .panel-derecho .tab-box .tab-content .btn-enviar-modulo{
+        width: 40%;
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
 
-.box-crear-modulo .row-container .panel-derecho .tab-box .tab-content{
-    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
-}
+    /* posicionamiento y estilo del conentido de panel enviar modulo */
+    .box-crear-modulo .row-container .panel-derecho .row{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 
-.box-crear-modulo .row-container .panel-derecho .tab-box{
-    margin-top: 11%;
-}
+    .box-crear-modulo .row-container .panel-derecho .tab-box .tab-content{
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
 
-.box-crear-modulo .row-container .panel-derecho .tab-box .tab-content .btn-enviar-modulo{
-    width: 40%;
-    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
-}
+    .box-crear-modulo .row-container .panel-derecho .tab-box{
+        margin-top: 11%;
+    }
 
-.box-crear-modulo .row-container .panel-derecho .tab-box .tab-content .tab-pane{
-    margin-top: 20%;
-    margin-bottom: 20%;
-}
+    .box-crear-modulo .row-container .panel-derecho .tab-box .tab-content .tab-pane{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
 
-.box-proyectos .row-proyectos{
-    margin-top: 1%;
-}
+    .box-proyectos .row-proyectos{
+        margin-top: 1%;
+    }
 
-.box-proyectos .row-proyectos .col{
-    width: 50%;
-}
+    .box-proyectos .row-proyectos .col{
+        width: 50%;
+    }
 
-.box-proyectos .row-proyectos .panel-activos .tab-box-p-activos .tab-content .tab-pane .p-activos-content{
-    margin-top: 2%;
-}
+/* Paneles de abajo */
+    /* panel proyectos Activos */
+    .box-proyectos .row-proyectos .panel-activos .tab-box-p-activos .tab-content{
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
 
-.box-proyectos .row-proyectos .panel-terminados .tab-box-p-terminados .tab-content .tab-pane .p-terminados-content{
-    margin-top: 2%;
-}
+    .box-proyectos .row-proyectos .panel-activos .tab-box-p-activos .tab-content .tab-pane .p-activos-content{
+        margin-top: 2%;
+    }
+
+    /* panel proyectos Terminados */
+    .box-proyectos .row-proyectos .panel-terminados .tab-box-p-terminados .tab-content{
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
+
+    .box-proyectos .row-proyectos .panel-terminados .tab-box-p-terminados .tab-content .tab-pane .p-terminados-content{
+        margin-top: 2%;
+    }
