@@ -1,0 +1,138 @@
+body { background: hsl(0, 0%, 88%); }
+.bootstrap { float: left; max-height: 125px; }
+
+/* Nav bar datos docente */
+.nav-bar-docente{
+    background:hsl(0, 0%, 100%);
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+/* Grupo de botones de escuelas */
+.box-subir-archivo .row-container .panel-izquierdo .row-btns .btn-group{
+    margin-top: 1%;
+    color: black;
+    background:hsl(0, 0%, 100%);
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+/* Margen div creador y subir archivos */
+.box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos{
+    margin-top: 4%;
+}
+
+/* Sombra de panel subir archivos */
+.box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-enviar-archivos .container-subir-archivos{
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+/* columna izquierda columna creador */
+
+    /* sombra */
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-creador .row-creador-container .f-row{
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
+
+    /* padding textos*/
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-creador .row-creador-container .texto-creador{
+        padding-top: 15px;
+    }
+
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-creador .row-creador-container .div-mensaje{
+        padding-top: 10px;
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
+    /* Campana */
+    .bell{
+        background-color: rgb(254, 217, 6);
+        width: 60px;
+        height: 60px;
+    }
+
+/* columna derecha subir archivos */
+.box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-subir-archivos .row-subir-archivo{
+    background:hsl(0, 0%, 100%);
+}
+
+    /* Padding para centrar el contenido del panel subir archivos */
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-subir-archivos .row-subir-archivo .container-subir-archivos{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    /* Margenes */
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-subir-archivos .row-subir-archivo .container-subir-archivos .btn-seleccionar-archivos{
+        margin-top: 30%;
+        margin-bottom: 5%;
+    }
+
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-subir-archivos .row-subir-archivo .container-subir-archivos .enviar-url{
+        margin-top: 5%;
+        margin-bottom: 30%;
+    }
+
+    /* Linea Divisora */
+    .divider {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .divider::after,
+    .divider::before{
+        content: "";
+        border-bottom: .5px solid rgb(201, 201, 203);
+        padding-top: 5px;
+        flex: 1;
+    }
+
+    .divider:not(:empty)::before {
+        margin-right: 1.5em;
+    }
+    
+    .divider:not(:empty)::after {
+        margin-left: 1.5em;
+    }
+
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-subir-archivos .row-subir-archivo .container-subir-archivos .btn-enviar-archivos{
+        margin-bottom: 8%;
+    }
+
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-subir-archivos .row-subir-archivo .container-subir-archivos .enviar-url input{
+        width: 50%;
+    }
+
+    /* Sombra del boron seleccionar archivo */
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-subir-archivos .row-subir-archivo .container-subir-archivos .btn-seleccionar-archivos button{
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
+
+    .box-subir-archivo .row-container .panel-izquierdo .panel-subir-archivos .col-subir-archivos .row-subir-archivo .container-subir-archivos .btn-enviar-archivos button{
+        width: 70%;
+        box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    }
+
+/* Panel Info Docente */
+.box-subir-archivo .row-container .panel-derecho{
+    background:hsl(0, 0%, 100%);
+}
+
+.box-subir-archivo .row-container .panel-derecho .row{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.box-subir-archivo .row-container .panel-derecho .container-photo{
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.box-subir-archivo .row-container .panel-derecho .btn-group-vertical{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+#btn:hover{
+    background:hsla(215, 98%, 52%);
+    color: white;
+}

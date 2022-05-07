@@ -12,10 +12,11 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">  
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/style-alumno-inicio.css">
+    <link rel="stylesheet" href="/css/style-subir-archivos.css">
     <title>Subir Archivo</title>
 </head>
 <body>
+
     <!-- nav bar top -->
     <nav class="navbar navbar-light bg-primary nav-bar-login">
         <div class="container-fluid">
@@ -32,76 +33,148 @@
     </nav>
     <!-- nav bar top end -->
 
-    <!-- nav bar estudiante start -->
-    <nav class="navbar navbar-light nav-bar-estudiante">
+    <!-- nav bar docente start -->
+    <nav class="navbar navbar-light nav-bar-docente">
         <div class="container-fluid">
             <div class="nav-brand">
-                <span class="text-muted fw-bold fs-4">Estudiante</span>
+                <span class="text-muted fw-bold fs-4">DOCENTE</span>
                 <img class="rounded-circle" src="/assets/placeholder.jpg" alt="" width="40" height="40">
-                <span class="fw-bold fs-4">Alumno </span> <span class="text-muted fs-6">Nombre Alumno</span>
+                <span class="fw-bold fs-4">Profesor/a </span> <span class="text-muted fs-6">Nombre Docente</span>
             </div>
+            
             <div class="d-flex fw-bold">
-                <a href="#" class="text-decoration-none text-muted"><i class="fas fa-angle-right text-muted" aria-hidden="true"></i> Ejercicios</a>
+                <a href="#" class="text-decoration-none text-muted"><i class="fas fa-angle-right text-muted" aria-hidden="true"></i> Seleccionar Archivos</a>
             </div>
         </div>
     </nav>
-    <!-- nav bar estudiante end -->
+    <!-- nav bar docente end -->
 
-    <!-- start panel estudiante -->
-    <section class="box">
+    <!-- start panel docente -->
+    <section class="box-subir-archivo">
         <div class="row mx-auto row-container">
 
-            <!-- start panel de actividades -->
-            <div class="col col-10 panel-izquierdo">
+            <!-- start panel izquierdo -->
+            <div class="col panel-izquierdo">
 
                 <!-- start group btns -->
-                <div class="row-md row-btns">
-                    <div class="btn-group" role="group_escuelas" aria-label="Basic radio toggle button group">
+                <div class="row-md d-flex align-items-center position-relative row-btns">
+                    <div class="col btn-group" role="group_escuelas" aria-label="Basic radio toggle button group">
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                        <label class="btn btn-outline-primary fw-bold" for="btnradio1">Modulos</label>
+                        <label class="btn btn-outline-primary fw-bold" for="btnradio1">Escuela Nueva Creación Misión</label>
                       
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                        <label class="btn btn-outline-primary fw-bold" for="btnradio2">Tareas</label>
+                        <label class="btn btn-outline-primary fw-bold" for="btnradio2">Escuela Elvira Fabiola 1</label>
                       
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                        <label class="btn btn-outline-primary fw-bold" for="btnradio3">Examenes</label>
+                        <label class="btn btn-outline-primary fw-bold" for="btnradio3">Escuela Nueva Creación Misión</label>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </div>
                 </div>
                 <!-- end group btns -->
 
-                <div class="container panel-izquierdo">
+                <div class="container">
 
-                    <!-- start panel modulos -->
-                    <div class="row tab-box">
-                        <div class="col">
+                    <!-- start panel subir archivos -->
+                    <div class="row panel-subir-archivos">
 
-                        </div>
-                        <div class="col">
-                            <div class="d-inline">  
-                                <hr> o
+                        <!-- start col creador -->
+                        <div class="col col-4 d-flex bd-highlight align-items-end col-creador">
+                            <div class="row flex-fill bd-highlight row-creador-container">
+                                <div class="row rounded-top f-row" style="background:hsla(215, 98%, 52%);">
+                                    <div class="col d-flex justify-content-center align-items-center">
+                                        <div class="texto-creador">
+                                            <p style="color: white;" class="fw-bold">Creador</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-1 position-relative">
+                                        <div class="position-absolute top-50 start-100 translate-middle rounded-circle d-flex justify-content-center align-items-center bell">
+                                            <i class="fa fa-bell fs-2" style="color: white;" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-center text-muted rounded-bottom div-mensaje" style="background:hsl(0, 0%, 100%);">
+                                    <p>En 15 min. tendrás el mensaje</p>
+                                </div>
                             </div>
-                            
-                            <label for="exampleFormControlInput1" class="form-label">Enviar URL</label>
-                            <input type="url" class="form-control" id="exampleFormControlInput1" placeholder="www.ummum.com/moudlo1">
-
-                            <!-- start btn inciar modulo -->
-                            <div class="row btn-realizar-modulo">
-                                <button type="button" class="btn btn-primary fw-bold">Enviar archivos</button>
-                            </div>
-                            <!-- end btn inciar modulo -->
                         </div>
+                        <!-- end col creador -->
+
+                        <div class="col col-1"></div>
+
+                        <!-- start col subir archivos -->
+                        <div class="col text-center col-subir-archivos">
+
+                            <div class="row rounded row-subir-archivo">
+                                <div class="mx-auto container-subir-archivos">
+                                    <div class="mx-auto btn-seleccionar-archivos">
+                                        <button type="button" class="btn btn-outline-primary rounded-pill fw-bold text-muted">Seleccionar archivos</button>
+                                        <span class="text-muted">No se eligio archivo</span>
+                                    </div>
+        
+                                    <div class="divider mx-auto">  
+                                        o
+                                    </div>
+                                    
+                                    <div class="enviar-url">
+                                        <label for="exampleFormControlInput1" class="form-label text-muted fw-bold">Enviar URL</label>
+                                        <input type="url" class="form-control text-center mx-auto" id="exampleFormControlInput1" placeholder="www.ummum.com/modulo1">
+                                    </div>
+        
+                                    <!-- start btn inciar modulo -->
+                                    <div class="btn-enviar-archivos">
+                                        <button type="button" class="btn btn-primary rounded-pill fw-bold fs-4">Enviar archivos</button>
+                                    </div>
+                                    <!-- end btn inciar modulo -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col subir archivos -->
 
                     </div>
-                    <!-- end panel modulos -->
+                    <!-- end panel subir archivos -->
 
-                    
-                    
                 </div>
             </div>
-            <!-- end panel de actividades -->
+            <!-- end panel izquierdo -->
 
-            <!-- start panel info estudiante -->
-            <div class="col col-2 panel-derecho">
+            <!-- start panel info docente -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="container">
+                        <div class="row">
+                            <h4 class="text-muted">DOCENTE</h4>
+                            <div class="text-center container-photo">
+                                <img class="img-thumbnail rounded-circle profile-photo" src="/assets/placeholder.jpg">
+                            </div>
+    
+                            <div class="data-docente">
+                                <span><h4>Profesora</h4></span>
+                                <p class="text-muted fs-6">NOMBRE</p>
+                            </div>
+    
+                        </div>
+                        <div class="row">
+                            <div class="list-group btn-group-vertical">
+                                <button type="button" class="list-group-item list-group-item-action fs-5 active" id="btn">1er Grado</button>
+                                <button type="button" class="list-group-item list-group-item-action" id="btn">3er Grado</button>
+                                <button type="button" class="list-group-item list-group-item-action" id="btn">5to Grado</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end panel info docente -->
+
+            <!-- <div class="col col-2 panel-derecho">
                 <div class="row">
                     <div class="col col-1">
                         <a href="#"><i class="fas fa-circle-right fs-3" aria-hidden="true"></i></a>
@@ -114,24 +187,29 @@
                             <img class="img-thumbnail rounded-circle profile-photo" src="/assets/placeholder.jpg">
                         </div>
 
-                        <div class="data-alumno">
+                        <div class="data-docente">
                             <span><h4>Profesora</h4></span>
                             <p class="text-muted fs-6">NOMBRE</p>
                         </div>
 
                     </div>
                     <div class="row">
-                        
+                        <div class="list-group btn-group-vertical">
+                            <button type="button" class="list-group-item list-group-item-action fs-5 active" id="btn">1er Grado</button>
+                            <button type="button" class="list-group-item list-group-item-action" id="btn">3er Grado</button>
+                            <button type="button" class="list-group-item list-group-item-action" id="btn">5to Grado</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- end panel info estudiante -->
+            </div> -->
+            <!-- end panel info docente -->
 
         </div>
     </section>
-    <!-- end panel estudiante -->
+    <!-- end panel docente -->
 
 </body>
 <!-- SCRIPTS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="/js/subir-archivos.js"></script>
 </html>
