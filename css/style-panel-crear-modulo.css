@@ -20,7 +20,7 @@ body { background: hsl(0, 0%, 88%); }
 
     .box .row-container .panel-izquierdo .panel-modulos{
         margin-top: 3%;
-        width: 90%;
+        width: 100%;
     }
 
     .box .row-container .panel-izquierdo .panel-modulos .tab-content{
@@ -32,10 +32,10 @@ body { background: hsl(0, 0%, 88%); }
         margin-bottom: 8%;
     }
 
-    .box .row-container .panel-izquierdo .panel-modulos .tab-content .row .card{
-        margin-left: 4%;
-        margin-right: 4%;
-    }
+    /* .box .row-container .panel-izquierdo .panel-modulos .tab-content .row .card{
+        margin-left: 2%;
+        margin-right: 2%;
+    }*/
 
     .box .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .modulo-title{
         margin-left: 2%;
@@ -52,7 +52,7 @@ body { background: hsl(0, 0%, 88%); }
 
 /* Panel enviar modulo */
 .box .row-container .panel-derecho{
-    width: 20%;
+    width: 23%;
 }
 
 .box .row-container .panel-derecho .row{
@@ -76,4 +76,45 @@ body { background: hsl(0, 0%, 88%); }
 .box .row-container .panel-derecho .tab-box .tab-content .tab-pane{
     margin-top: 20%;
     margin-bottom: 20%;
+}
+
+/* /* RESPONSIVO */
+@media screen and (max-width: 1180px) {
+    .box .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .btn-crear-modulo{
+        width: 50%;
+    }
+
+    .box .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .btn-crear-modulo button{
+        padding: 20px;
+    }
+
+    .box .row-container .panel-derecho .tab-box .tab-content .btn-enviar-modulo{
+        width:  80%;
+    }
+
+    .box .row-container .panel-derecho .tab-box .tab-content .btn-enviar-modulo button{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .box .row-container .panel-derecho .tab-box .tab-content input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .box .row-container .panel-derecho .tab-box .tab-content input, button{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .box .row-container .panel-izquierdo .panel-modulos .tab-content .tab-pane .btn-crear-modulo{
+        width: 100%;
+    }
+
+    .box .row-container .panel-derecho .tab-box .tab-content .btn-enviar-modulo{
+        width:  100%;
+    }
 }
